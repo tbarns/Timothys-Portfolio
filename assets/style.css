@@ -1,0 +1,14 @@
+* {
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: darkkhaki;
+    color: navy;
+}
+header {
+    text-align: center;
+    font-size: 300%;
+    border: 12px dashed salmon;
+
+}
+nav {
+    font-style: italic;
+}
