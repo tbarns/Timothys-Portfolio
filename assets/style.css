@@ -12,3 +12,7 @@ header {
 nav {
     font-style: italic;
 }
+.about img{
+    max-width: 275px;
+    display: inline;
+}
