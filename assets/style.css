@@ -3,7 +3,7 @@
     background-color: darkkhaki;
     color: navy;
 }
-header {
+header h1 {
     text-align: center;
     font-size: 300%;
     border: 12px dashed salmon;
@@ -12,7 +12,72 @@ header {
 nav {
     font-style: italic;
 }
+
+.container, div {
+    border: 5px solid whitesmoke;
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+/* displayed none on photo needs to be changed  */
 .about img{
     max-width: 275px;
-    display: inline;
+    display: block;
 }
+
+section {
+    background-color: violet;
+    border-style: solid;
+
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 33%;
+    display:flex;
+}
+/* Cards need to be staggered and add a hoverd boxed next to to describe */
+#card-1 {
+    background-color: royalblue;
+}
+
+#card-2 {
+    background-color: red;
+    
+    
+}
+
+#card-3 {
+    background-color: grey;
+    
+}
+
+#card-4 {
+    background-color: blueviolet;
+}
+
+#card-5 {
+    background-color: aquamarine;
+}
+
+#card-6 {
+    background-color: black;
+}
+aside {
+    display: block;
+}
+
+@media screen and (max-width: 992px) {
+    section {
+   
+    width: 25%;
+
+    }
+  }
+  
+  @media screen and (max-width: 770px) {
+     section 
+     {
+      width: 50%;
+      
+  }
+  }
