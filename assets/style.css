@@ -4,19 +4,22 @@
     color: navy;
 }
 header h1 {
-    text-align: center;
-    font-size: 300%;
-    border: 12px dashed salmon;
+        text-align: center;
+        font-size: 500%;
+       background-image: url("block background.jpg");
+
+        background-size:;
+        background-position: center;
 
 }
 nav {
     font-style: italic;
+    display: flex
 }
-
 .container, div {
     border: 5px solid whitesmoke;
     background-color: blanchedalmond;
-    display: flex;
+;
 }
 
 /* displayed none on photo needs to be changed  */
@@ -24,11 +27,15 @@ nav {
     max-width: 275px;
     display: block;
 }
-
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 section {
     background-color: violet;
     border-style: solid;
-
+    justify-content: center;
     border-width: 1px;
     padding: 10px;
     float: left;
@@ -65,8 +72,12 @@ section {
 aside {
     display: block;
 }
+#contact {
+    font-size: 24px;
+}
 
 @media screen and (max-width: 992px) {
+
     section {
    
     width: 25%;
