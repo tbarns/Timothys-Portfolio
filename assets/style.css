@@ -1,8 +1,9 @@
 * {
     font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+}
+body {
     background-color: #7d8087;
-    
-      align-items: center;
 }
 header h1 {
         text-align: center;
@@ -21,7 +22,12 @@ aside {
 }
 aside p{
     flex: 1 1 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.25;
+    font-size: 20px;
+    font-weight: 300;
     background-color: #a95da7;
+
 }
 
 nav {
@@ -35,6 +41,7 @@ button {
     line-height: 250%;
     flex: 1 1 auto;
     border: 5px solid #7cca42;
+    background-color: #7d8087;
 }
 
   .about img{
@@ -76,39 +83,42 @@ section {
 }
 
 #card-4 {
-    background-color: blueviolet;
+    background-color: #da5f4d;
 }
 
 #card-5 {
-    background-color: aquamarine;
+    background-color: #4ea37b;
 }
 
 #contact {
-    font-size: 24px;
+    background-color: #7cca42;
+    display: flex;
+    flex-direction:column;
+    font-size: 34px;
     font-weight: 300;
     font-family: "Lucida Console", sans-serif;
+    justify-content: center;
 }
 
 #contact img {
     display: inline;
+    position:relative;
+    right: -74px;
+    top: -32px;
     width: 30px;
     height: 30px;
-    position: relative;
 }
 
 @media screen and (max-width: 992px) {
 
     section {
-   
-    width: 22%;
-
+       width: 22%;
     }
   }
   
   @media screen and (max-width: 770px) {
      section 
      {
-      width: 50%;
-      
+      width: 50%; 
   }
   }
