@@ -1,6 +1,6 @@
 * {
     font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: darkkhaki;
+    background-color: #7d8087;
     
       align-items: center;
 }
@@ -9,10 +9,21 @@ header h1 {
         font-size: 500%;
         line-height: 3.5;
        background-image: url("block background.jpg");
-        color: darkslategrey;
-        text-shadow: 9px 4px 15px rgb(248, 131, 213);
+        color: #e49f44;
+        text-shadow: 11px 7px 9px #6eccf0;
+        -webkit-text-stroke: 1px #7d8087;
         background-size: 85%;
         background-position: inherit;
+}
+aside {
+    display: flex;
+    background-color: #a95da7;
+}
+aside p{
+    flex: 1 1 auto;
+    background-color: #a95da7;
+
+
 }
 
 nav {
@@ -20,11 +31,12 @@ nav {
     
 }
 button {
-    font-style: italic;
-    font-size: 185%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 235%;
     font-weight: 300;
+    line-height: 250%;
     flex: 1 1 auto;
-    border: 5px solid whitesmoke;
+    border: 5px solid #7cca42;
 }
 
        /* displayed none on photo needs to be changed  */
@@ -49,17 +61,17 @@ section {
 }
 /* Cards need to be staggered and add a hoverd boxed next to to describe */
 #card-1 {
-    background-color: royalblue;
+    background-color: #ffca2a;
 }
 
 #card-2 {
-    background-color: red;
+    background-color: #6eccf0;
     
     
 }
 
 #card-3 {
-    background-color: grey;
+    background-color: #5a311d;
     
 }
 
@@ -74,9 +86,7 @@ section {
 #card-6 {
     background-color: black;
 }
-aside {
-    display: block;
-}
+
 #contact {
     font-size: 24px;
     font-weight: 300;
