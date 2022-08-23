@@ -22,8 +22,6 @@ aside {
 aside p{
     flex: 1 1 auto;
     background-color: #a95da7;
-
-
 }
 
 nav {
@@ -39,29 +37,30 @@ button {
     border: 5px solid #7cca42;
 }
 
-       /* displayed none on photo needs to be changed  */
-.about img{
+  .about img{
     max-width: 275px;
     display: block;
 }
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
 }
 section {
-    background-color: violet;
+    color: azure;
     border-style: solid;
     justify-content: center;
     border-width: 1px;
     padding: 10px;
-    float: left;
-    width: 33%;
-    display:flex;
-}
-/* Cards need to be staggered and add a hoverd boxed next to to describe */
+    width: 48%;
+    float:unset
+    }
+
 #card-1 {
     background-color: #ffca2a;
+    display: block;
+    flex-direction: column;
+    width: 100%;
 }
 
 #card-2 {
@@ -83,21 +82,24 @@ section {
     background-color: aquamarine;
 }
 
-#card-6 {
-    background-color: black;
-}
-
 #contact {
     font-size: 24px;
     font-weight: 300;
     font-family: "Lucida Console", sans-serif;
 }
 
+#contact img {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
 @media screen and (max-width: 992px) {
 
     section {
    
-    width: 25%;
+    width: 22%;
 
     }
   }
