@@ -6,9 +6,9 @@ https://tbarns.github.io/Timothys-Portfolio/
 
 ## Usage
 
-<img src="Portfolio-1.png" alt="screenshot of live website">
+<img src="assets/Portfolio-1.png" alt="screenshot of live website">
 
-<img src="Portfolio-2.png" alt="screenshot of live website">
+<img src="assets/Portfolio-2.png" alt="screenshot of live website">
 
 
 ## Credits
