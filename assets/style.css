@@ -1,8 +1,8 @@
 * {
     font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: darkkhaki;
-    color: rgb(229, 127, 166);
-    align-items: center;
+    
+      align-items: center;
 }
 header h1 {
         text-align: center;
@@ -10,22 +10,24 @@ header h1 {
         line-height: 3.5;
        background-image: url("block background.jpg");
         color: darkslategrey;
-        text-shadow: 9px 4px 10px rgb(248, 131, 213);
+        text-shadow: 9px 4px 15px rgb(248, 131, 213);
         background-size: 85%;
         background-position: inherit;
-
 }
+
 nav {
-    font-style: italic;
-    display: flex
+    display: flex;
+    
 }
-.container, div {
+button {
+    font-style: italic;
+    font-size: 185%;
+    font-weight: 300;
+    flex: 1 1 auto;
     border: 5px solid whitesmoke;
-    background-color: blanchedalmond;
-;
 }
 
-/* displayed none on photo needs to be changed  */
+       /* displayed none on photo needs to be changed  */
 .about img{
     max-width: 275px;
     display: block;
