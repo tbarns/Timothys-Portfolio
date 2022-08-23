@@ -1,12 +1,13 @@
 # Timothy's Portfolio
 
 ## Installation
-<!-- link -->
+https://tbarns.github.io/Timothys-Portfolio/
 
 
 ## Usage
-<link href="Portfolio-1.png" alt="screenshot of live website">
-<link href="Portfolio-2.png" alt="screenshot of live website">
+
+<link href="assets\Portfolio-1.png" alt="screenshot of live website">
+<link href="assets\Portfolio-2.png" alt="screenshot of live website">
 
 
 ## Credits
