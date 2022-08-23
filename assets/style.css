@@ -60,7 +60,8 @@ section {
     background-color: #ffca2a;
     display: block;
     flex-direction: column;
-    width: 100%;
+    width: 97.65%;
+    height: 400px;
 }
 
 #card-2 {
