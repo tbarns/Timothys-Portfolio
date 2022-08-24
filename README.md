@@ -1,7 +1,7 @@
 # Timothy's Portfolio
 
 ## Description
-I needed to create a portfolio of my professional work to highlight my skills and abilities.  Here is where I am housing my best work to display to potential client and recruiters. 
+I needed to create a portfolio of my professional work to highlight my skills and abilities.  Here is where I am housing my best work to display to potential clients and recruiters. 
 
 
 ## Installation
@@ -16,7 +16,9 @@ https://tbarns.github.io/Timothys-Portfolio/
 
 
 ## Credits
-N/A
+PLace holder images provided for free from https://placeholder.com/
+
+Primary header background art by Timothy Barnaby 
 
 ## License
 MIT License
