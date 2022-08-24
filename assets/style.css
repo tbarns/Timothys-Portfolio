@@ -18,7 +18,7 @@ header h1 {
         background-size: 85%;
         background-position: inherit;
 }
-
+/* aside is providing style rules for the ABOUT ME section as well as the headshot */
 aside {
     display: flex;
     background-color: #a95da7;
@@ -52,6 +52,7 @@ button {
     max-width: 275px;
     display: block;
 }
+/* main contains the application cards and needs to be updated when I have created more applications to showcase */
 main {
     display: flex;
     flex-direction:row;
@@ -110,6 +111,7 @@ section {
     height: 30px;
 }
 
+/* Media queries that follow alter the appereance to the accoamade differenct size screens. */
 @media screen and (max-width: 992px) {
     section {
        width: 22%;
