@@ -1,5 +1,9 @@
 # Timothy's Portfolio
 
+## Description
+I needed to create a portfolio of my professional work to highlight my skills and abilities.  Here is where I am housing my best work to display to potential client and recruiters. 
+
+
 ## Installation
 https://tbarns.github.io/Timothys-Portfolio/
 
