@@ -118,9 +118,10 @@ section {
  @media screen and (max-width: 770px) {
     button {
         font-size: 200%;
-        flex: 0 1 35%;
+        flex: 0 0 32%;
         font-weight: 300;
         line-height: 25 auto;
+        justify-content: center;
     }
     aside {
         font-size: 16px;
