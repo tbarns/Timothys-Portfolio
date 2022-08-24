@@ -35,6 +35,7 @@ aside p{
 
 nav {
     display: flex;
+    justify-content: center;
     
 }
 button {
@@ -117,12 +118,11 @@ section {
 
  @media screen and (max-width: 770px) {
     button {
-        font-size: 200%;
+        font-size: 150%;
         flex: 0 0 32%;
         font-weight: 300;
         line-height: 25 auto;
-        justify-content: center;
-    }
+        }
     aside {
         font-size: 16px;
         font-weight: 200;
