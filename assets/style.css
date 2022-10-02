@@ -67,13 +67,25 @@ section {
     width: 48%;
     float:unset
     }
-
+img{
+    display: block;
+}
 #card-1 {
     background-color: #ffca2a;
     display: block;
     flex-direction: column;
     width: 97.65%;
     height: 400px;
+}
+
+#app-desc-1{
+    display: block;
+    position: relative;
+    left: 50%;
+    bottom: 60%;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    font-size: 20px;
 }
 
 #card-2 {
