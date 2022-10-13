@@ -1,6 +1,10 @@
 * {
-    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -8,23 +12,28 @@ body {
 }
 
 header h1 {
-        text-align: center;
-        font-size: 500%;
-        line-height: 3.5;
-       background-image: url("block background.jpg");
-        color: #e49f44;
-        text-shadow: 11px 7px 9px #6eccf0;
-        -webkit-text-stroke: 1px #7d8087;
-        background-size: 85%;
-        background-position: inherit;
+    text-align: center;
+    font-size: 700%;
+    line-height: 3.5;
+    background-image: url("block background.jpg");
+
+    background: linear-gradient (right #e49f44, #6eccf0, black);
+    color:black;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 20px 17px 60px #6eccf0;
+    -webkit-text-stroke: 5px black;
+    background-size: 85%;
+     background-position: inherit;
 }
+
 /* aside is providing style rules for the ABOUT ME section as well as the headshot */
 aside {
     display: flex;
     background-color: #a95da7;
 }
 
-aside p{
+aside p {
     flex: 1 1 auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.25;
@@ -36,8 +45,9 @@ aside p{
 nav {
     display: flex;
     justify-content: center;
-    
+
 }
+
 button {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 235%;
@@ -48,16 +58,18 @@ button {
     background-color: #7d8087;
 }
 
-  .about img{
+.about img {
     max-width: 275px;
     display: block;
 }
+
 /* main contains the application cards and needs to be updated when I have created more applications to showcase */
 main {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
 }
+
 section {
     color: azure;
     border-style: solid;
@@ -65,11 +77,13 @@ section {
     border-width: 1px;
     padding: 10px;
     width: 48%;
-    float:unset
-    }
-img{
+    float: unset
+}
+
+img {
     display: block;
 }
+
 #card-1 {
     background-color: #ffca2a;
     display: block;
@@ -78,7 +92,7 @@ img{
     height: 400px;
 }
 
-#app-desc-1{
+#app-desc-1 {
     display: block;
     position: relative;
     left: 50%;
@@ -107,7 +121,7 @@ img{
 #contact {
     background-color: #7cca42;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     font-size: 34px;
     font-weight: 300;
     font-family: "Lucida Console", sans-serif;
@@ -116,7 +130,7 @@ img{
 
 #contact img {
     display: inline;
-    position:relative;
+    position: relative;
     right: -74px;
     top: -32px;
     width: 30px;
@@ -126,33 +140,33 @@ img{
 /* Media queries that follow alter the appereance to the accoamade differenct size screens. */
 @media screen and (max-width: 992px) {
     section {
-       width: 22%;
-     }
-  }
+        width: 22%;
+    }
+}
 
- @media screen and (max-width: 770px) {
-    .about img{
+@media screen and (max-width: 770px) {
+    .about img {
         max-width: 75%;
         display: block;
         position: relative;
         top: 10px;
     }
-    
+
     button {
         font-size: 150%;
         flex: 0 0 32%;
         font-weight: 300;
         line-height: 25 auto;
-        }
+    }
+
     aside {
         font-size: 16px;
         font-weight: 200;
         flex-direction: column;
         background-color: #6eccf0;
-      }    
     }
+}
 
-     section 
-     {
-      width: 50%; 
-     }
+section {
+    width: 50%;
+}
