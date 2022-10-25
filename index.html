@@ -1,81 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Portfolio: Timothy Barnaby</title>
 </head>
-<body>
-    <header><h1>Timothy Barnaby</h1>
-    <nav>
-        <button>
-        <a href="#about">About</a>
-        </button>
-        <button><a href="#Portfolio">Portfolio</a></button>
-        <button><a href="#contact">Contact</a></button>
-    </nav>
-</header>
-<!-- adding breaks to elongate the page so the UI scrolls more obviously -->
-<br><br><br><br><br><br><br>
-<!-- Aside contains the about me section and may move to an actual side of the screen in a later version of the portfolio -->
-<aside id="about" class="about" >
-    <!-- This is a link to my headshot -->
-    <img src="./assets/Timothy profile pic square.jpg" alt="professional headshot of a web developer  wearing a yellow shirt and smiling">
-    <p style="text-indent: 25px;">
-        I am an American web developer and artist with a background in natural human language.  After earning degrees in linguistics and French from Western Washington University I went on to use my language skills and training to teach English to speakers of other languages. Over the years I have worked in the arts as an actor and artist for places like the Gage Academy of Art, Mighty Tripod Acting Studio, Glass Iris Productions, Amazon and more. 
-        My passion for learning, creating and collaboration brought me to the field of web development.  I have experience with HTML, CSS and JavaScript and received training via the University of Washington's Full Stack Coding Bootcamp in collaboration with Trilogy Education Services, a 2U, Inc. brand. 
-        </p>
-    
-</aside>
-<br><br><br><br><br><br><br><br><br><br><br>
 
+<body>
+    <header>
+        <h1>Timothy Barnaby</h1>
+        <nav>
+            <button>
+                <a href="#about">About</a>
+            </button>
+            <button><a href="#Portfolio">Portfolio</a></button>
+            <button><a href="#contact">Contact</a></button>
+        </nav>
+    </header>
+    <br><br><br><br>
+    <div class="tile is-ancestor m-3 p-2" id="about">
+        <aside class="about is-vertical is-4 tile is-parent column is-one-quarter">
+            <div class="tile is-child">
+                <figure class="image is-square">
+                    <img src="./assets/Timothy profile pic square.jpg"
+                        alt="professional head-shot of a web developer  wearing a yellow shirt and smiling">
+                </figure>
+            </div>
+
+        </aside>
+        <p class="tile is-child is-6 m-1 column is-half">
+            I am an American web developer and artist with a background in natural human language. After earning
+            degrees in linguistics and French from Western Washington University I went on to use my language skills
+            and training to teach English to speakers of other languages. Over the years I have worked in the arts
+            as an actor and artist for places like the Gage Academy of Art, Mighty Tripod Acting Studio, Glass Iris
+            Productions, Amazon and more.
+            My passion for learning, creating and collaboration brought me to the field of web development. I have
+            experience with HTML, CSS and JavaScript and received training via the University of Washington's Full
+            Stack Coding Bootcamp in collaboration with Trilogy Education Services, a 2U, Inc. brand.
+        </p>
+    </div>
     <main id="Portfolio">
-        
-        <section id="card-1">
-            <header><h2>The Brewery Locator App</h2></header>
-            <a href="https://tbarns.github.io/Brewery-Locator/" alt="link to live site for a brewery locator app">
-            <img src="assets\icon.ico" alt="picture of animated beer glass"/>
-            </a>
-            <p id="app-desc-1">The Brewery Locator App uses the google maps API in conjunction with the open brewery DB API to enable users to locate breweries all over the world.  With a simple search of a city you can get location information as well as a deeper dive into what type of brewery each location is.  </p>
-        </section>
-        <section id="card-2">
-            <header><h2>Application 2 coming soon</h2></header>
-            <a href="https://tbarns.github.io/blank-site/" alt="Website displaying block text on green background saying This application does not exist... YET!  Stay tuned!! ">
-            <img src="https://via.placeholder.com/100" alt="placeholder image"/>
-            </a>
-            
-        </section>
-        <section id="card-3">
-            <header><h2>Application 3 coming soon</h2></header>
-            <a href="https://tbarns.github.io/blank-site/" alt="Website displaying block text on green background saying This application does not exist... YET!  Stay tuned!! ">
-            <img src="https://via.placeholder.com/100" alt="placeholder image"/>
-            </a>
-            
-        </section>
-        <section id="card-4">
-            <header><h2>Application 4 coming soon</h2></header>
-            <a href="https://tbarns.github.io/blank-site/" alt="Website displaying block text on green background saying This application does not exist... YET!  Stay tuned!! ">
-            <img src="https://via.placeholder.com/100" alt="placeholder image"/>
-            </a>
-            
-        </section>
-        <section id="card-5">
-            <header><h2>Application 5 coming soon</h2></header>
-            <a href="https://tbarns.github.io/blank-site/" alt="Website displaying block text on green background saying This application does not exist... YET!  Stay tuned!! ">
-            <img src="https://via.placeholder.com/100" alt="placeholder image"/>
-            </a>
-        </section>
+        <div class="tile is-ancestor m-4">
+
+
+            <aside class="tile is-vertical is-parent " id="card-1">
+
+                <p class="title">The Brewery Locator App</p>
+                <p class="subtitle">find and save local brews</p>
+                <a href="https://tbarns.github.io/Brewery-Locator/" alt="link to live site for a brewery locator app">
+                    <figure class="image is-128x128 is-inline-block ">
+                        <img src="assets\icon.ico" alt="picture of animated beer glass" />
+                    </figure>
+                </a>
+                <p class="p-4">The Brewery Locator App uses the google maps API in
+                    conjunction with the open
+                    brewery DB
+                    API to enable users to locate breweries all over the world. With a simple search of
+                    a
+                    city you
+                    can get
+                    location information as well as a deeper dive into what type of brewery each
+                    location
+                    is.</p>
+                <p id="blue-text"> To view the application click the beer icon above!
+                </p>
+            </aside>
+
+
+
+
+        </div>
+
+
+        <div class="tile is-ancestor m-3 p-2 ">
+            <div class="tile">
+                <section class="tile is-parent m-1" id="card-2">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child ">
+                                <p class="title">Application 2 </p>
+                                <p class="subtitle">coming soon</p>
+                            </article>
+                            <article class="tile is-child">
+                                <a href="https://tbarns.github.io/blank-site/"
+                                    alt="Website displaying block text on green background saying This application does not exist... YET!  Stay tuned!! ">
+                                    <img src="https://via.placeholder.com/100" alt="placeholder image" />
+                                </a>
+
+                            </article>
+                        </div>
+                </section>
+            </div>
+            <div class="tile">
+                <section class="tile is-parent m-1" id="card-3">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child ">
+                                <p class="title">Application 3 </p>
+                                <p class="subtitle">coming soon</p>
+                            </article>
+                            <article class="tile is-child">
+                                <a href="https://tbarns.github.io/blank-site/"
+                                    alt="Website displaying block text on green background saying This application does not exist... YET!  Stay tuned!! ">
+                                    <img src="https://via.placeholder.com/100" alt="placeholder image" />
+                                </a>
+
+                            </article>
+                        </div>
+                </section>
+            </div>
+            <div class="tile">
+                <section class="tile is-parent m-1" id="card-4">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child ">
+                                <p class="title">Application 4 </p>
+                                <p class="subtitle">coming soon</p>
+                            </article>
+                            <article class="tile is-child">
+                                <a href="https://tbarns.github.io/blank-site/"
+                                    alt="Website displaying block text on green background saying This application does not exist... YET!  Stay tuned!! ">
+                                    <img src="https://via.placeholder.com/100" alt="placeholder image" />
+                                </a>
+
+                            </article>
+                        </div>
+                </section>
+            </div>
+            <div class="tile">
+                <section class="tile is-parent m-1 " id="card-5">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child ">
+                                <p class="title">Application 5 </p>
+                                <p class="subtitle">coming soon</p>
+                            </article>
+                            <article class="tile is-child">
+                                <a href="https://tbarns.github.io/blank-site/"
+                                    alt="Website displaying block text on green background saying This application does not exist... YET!  Stay tuned!! ">
+                                    <img src="https://via.placeholder.com/100" alt="placeholder image" />
+                                </a>
+
+                            </article>
+                        </div>
+                </section>
+            </div>
+        </div>
+
 
     </main>
-<br><br><br><br><br><br><br><br><br><br>
-<!-- footer contains contact information via links.  did not add a h3 to this section as I dont want one in the current version.  may alter that in a later version. -->
-    <footer id="contact">
-        <a href="mailto:tbarnaby1@gmail.com"> email &#9993</a>
-        <a href="https://linkedin.com/in/tbarns"> linkedin</a>
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin icon"> 
-    </footer>
+    <br><br><br><br><br><br>
+    <!-- footer contains contact information via links.  did not add a h3 to this section as I dont want one in the current version.  may alter that in a later version. -->
+    <div id="contact" class="has-text-centered">
+        <div class="columns is-gapless">
+            <div class="column is-one-third">
+                <a href="mailto:tbarnaby1@gmail.com"> email &#9993</a>
+
+            </div>
+            <div class="column is-one-third">
+                <a href="https://linkedin.com/in/tbarns"> linkedin</a>
+
+                <figure class="image is-32x32 is-inline-block">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin icon">
+                </figure>
+            </div>
+            <div class="column is-one-third">
+                <a href="https://github.com/tbarns"> GitHub</a>
+
+                <figure class="image is-32x32 is-inline-block">
+                    <img src="assets\GitHub-Mark-32px-blue.png" alt="github icon">
+                </figure>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>
