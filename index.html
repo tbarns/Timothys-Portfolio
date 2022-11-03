@@ -11,15 +11,17 @@
 </head>
 
 <body>
-    <header>
+    <header >
         <h1>Timothy Barnaby</h1>
-        <nav>
-            <button>
+        <div class="tile is-ancestor is-horizontal">
+        <nav class = "tile is-parent">
+            <button class="tile is-child is-4">
                 <a href="#about">About</a>
             </button>
-            <button><a href="#Portfolio">Portfolio</a></button>
-            <button><a href="#contact">Contact</a></button>
+            <button class="tile is-child is-4"><a href="#Portfolio">Portfolio</a></button>
+            <button class="tile is-child is-4"><a href="#contact">Contact</a></button>
         </nav>
+        </div>
     </header>
     <br><br><br><br>
     <div class="tile is-ancestor m-3 p-2" id="about">
@@ -44,7 +46,7 @@
         </p>
     </div>
     <main id="Portfolio">
-        <div class="tile is-ancestor m-4">
+        <div class="tile is-ancestor p-1 m-1">
 
 
             <aside class="tile is-vertical is-parent " id="card-1">
@@ -56,7 +58,8 @@
                         <img src="assets\icon.ico" alt="picture of animated beer glass" />
                     </figure>
                 </a>
-                <p class="p-4">The Brewery Locator App uses the google maps API in
+                <div class="content">
+                <p >The Brewery Locator App uses the google maps API in
                     conjunction with the open
                     brewery DB
                     API to enable users to locate breweries all over the world. With a simple search of
@@ -68,6 +71,7 @@
                     is.</p>
                 <p id="blue-text"> To view the application click the beer icon above!
                 </p>
+                </div>
             </aside>
 
 
