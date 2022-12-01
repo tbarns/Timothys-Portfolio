@@ -25,10 +25,7 @@ header h1 {
      background-position: inherit;
 }
 nav {
-    display: flex;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
+    
     justify-content: center;
 
 }
@@ -38,7 +35,7 @@ button {
     font-size: 235%;
     font-weight: 300;
     line-height: 250%;
-    flex: 1 1 auto;
+   
     border: 5px solid #7cca42;
     background-color: #7d8087;
 }
